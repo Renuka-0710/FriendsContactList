@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('Friendship.jpeg');
+    background-size: 100%;
+    background-position: 25% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 100px
+}
+
+.containers {
+    min-width: 350px;
+    min-height: 500px;
+    background: linear-gradient(360deg, transparent, transparent, #fb8c00);
+    padding: 50px 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px black
+}
+
+.containers table {
+    background: white
+}
+
+h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black
+}
+
+label {
+    text-shadow: 0px 0px 0px black
+}
+
+input[type='text'] {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+.withForm {
+    background: white;
+    margin-bottom: 2em;
+    padding: 3em
+}
+
+.withForm input[type='submit'] {
+    margin-top: 2em;
+    background: #222;
+    color: white;
+    border: 1px solid black
+}
+
+.withForm input[type='submit']:hover {
+    background: #333
+}
+
+.tableHolder {
+    height: 200px!important;
+    overflow-y: auto;
+}
